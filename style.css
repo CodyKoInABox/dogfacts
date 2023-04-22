@@ -1,4 +1,19 @@
 body{
     background-color: rgb(32, 32, 32);
     margin: 0px;
+    text-align: center;
+}
+#fact{
+    color: white;
+    font-family: arial;
+}
+#image{
+    max-width: 1000px;
+    max-height: 500px;
+}
+#newFact{
+
+}
+#newFact:hover{
+    cursor: pointer;
 }
