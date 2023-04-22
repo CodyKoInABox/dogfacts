@@ -6,14 +6,36 @@ body{
 #fact{
     color: white;
     font-family: arial;
+    font-size: larger;
+    font-weight: bold;
 }
 #image{
     max-width: 1000px;
     max-height: 500px;
 }
 #newFact{
-
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: transparent;
+    color: black;
+    font-family: arial;
+    font-size: medium;
+    transition: .2s;
+    box-shadow: 1px 2px 5px black;
+    margin-top: 2vh;
 }
 #newFact:hover{
     cursor: pointer;
+    transform: scale(1.05);
+    transition: .2s;
+}
+#counter{
+    color: white;
+    font-family: arial;
+    margin-top: 5vh;
+}
+#counterValue{
+    font-weight: bolder;
+    font-size: large;
 }
