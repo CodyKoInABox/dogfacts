@@ -29,6 +29,11 @@ body{
     cursor: pointer;
     transform: scale(1.05);
     transition: .2s;
+    box-shadow: 1px 3px 5px black;
+}
+#newFact:active{
+    transform: scale(0.98);
+    transition: .2s;
 }
 #counter{
     color: white;
