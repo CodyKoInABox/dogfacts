@@ -44,3 +44,12 @@ body{
     font-weight: bolder;
     font-size: large;
 }
+#footer{
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    font-family: arial;
+    font-weight: 600;
+    color: rgb(130, 130, 130);
+    font-size: small;
+}
